@@ -3,6 +3,6 @@ This repository contains my solutions to the [Rosalind](http://rosalind.info/abo
 
 Solutions are titled by ID found in the problem directory (i.e. GC.py)
 
-http://rosalind.info/users/ja3539/
+Username: http://rosalind.info/users/ja3539/
 
 
