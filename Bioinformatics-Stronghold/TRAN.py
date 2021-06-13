@@ -11,6 +11,7 @@ from helper_scripts.output_text import write_to_file
 from helper_scripts.read_fasta import read_fasta
 from collections import Counter
 
+
 dict_conv = {'AG':'transition','CT':'transition','AC':'transversion','GT':'transversion','AT':'transversion','CG':'transversion'}
 
 def get_trans_count(seq1:str,seq2:str)->dict:
