@@ -14,7 +14,7 @@ if __name__ == '__main__':
     input_file, output_file = parser()
     file = open(input_file,'r')
     contents = file.read().strip()
-    AA_table = pd.read_csv('/Users/mac/Desktop/Bioinfomatics-solutions/Bioinformatics-Stronghold/temp/AA_table.txt',sep = '\t')
+    AA_table = pd.read_csv('temp/AA_table.txt',sep = '\t')
     value_count = AA_table[AA_table['AA'] == 'O'].shape[0]
     for i in contents:
         value_count = value_count * AA_table[AA_table['AA'] == i].shape[0] % 1000000
